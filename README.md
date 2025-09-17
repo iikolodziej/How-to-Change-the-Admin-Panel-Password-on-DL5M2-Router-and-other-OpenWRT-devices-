@@ -17,6 +17,11 @@
 ## Steps
 
 ### 1. Connect via UART
+
+![IMG_0122](https://github.com/user-attachments/assets/61e7c204-f532-44ea-897e-88e2980f83c1)
+![IMG_0123](https://github.com/user-attachments/assets/c90e4ee1-4099-4294-aa4f-b90905519bc4)
+![IMG_0124](https://github.com/user-attachments/assets/151702c4-a513-4271-8967-e5f1d30bbd98)
+
 Connect the USB-UART adapter to the router pins (1.8V, 921600 baud) and open a terminal, for example:
 ```bash
 screen /dev/ttyUSB0 921600
