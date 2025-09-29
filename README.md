@@ -71,6 +71,7 @@ Inside `vi`:
 - Update flags:
   ```conf
   FIRST_LOGIN = 0;
+  WEB FIRST_LOGIN = 0;
   failed_access_attempts = 0;
   ```
 - Save and exit: press `Esc`, type `:wq`, press `Enter`.
@@ -115,6 +116,7 @@ cp /etc/config/webui.cfg /etc/config/webui.cfg.bak
 vi /etc/config/webui.cfg
 # → Set PASSWORD_CRYPT = "<YOUR_HASH>";
 # → Set FIRST_LOGIN = 0;
+# → Set WEB FIRST_LOGIN = 0;
 # → Set failed_access_attempts = 0;
 
 # Repeat for sofa_default_cfg if exists
